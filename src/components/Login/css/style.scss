@@ -1,0 +1,68 @@
+#root {
+  .login-page {
+    display: flex;
+    flex-direction: column;
+    .email-label {
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 150%;
+    }
+    .email {
+      border: 1px solid #dbdbdb;
+      height: 50px;
+      border-radius: 5px;
+      margin-bottom: 24px;
+      padding-left: 16px;
+    }
+    .pw-label {
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 150%;
+    }
+    .pw {
+      border: 1px solid #dbdbdb;
+      height: 50px;
+      border-radius: 5px;
+      padding-left: 16px;
+    }
+    .login-btn {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 150%;
+      border-radius: 5px;
+      color: white;
+      background-color: #ff007f;
+      border: 0;
+      height: 52px;
+      margin-top: 38px;
+      margin-bottom: 16px;
+      cursor: pointer;
+    }
+    .join-wrapper {
+      height: 50px;
+      width: 460px;
+      background-color: #f5f6f8;
+      border-radius: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 16px;
+      box-sizing: border-box;
+      .join-text {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 150%;
+        color: #54585a;
+      }
+      .join-btn {
+        font-size: 16px;
+        color: #54585a;
+        font-weight: 700;
+        line-height: 150%;
+        border: 0;
+        background-color: unset;
+        cursor: pointer;
+      }
+    }
+  }
+}

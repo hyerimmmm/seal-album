@@ -1,0 +1,91 @@
+#root {
+  .category-popup-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    .background {
+      background-color: black;
+      opacity: 0.3;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+    .popup-container {
+      background-color: white;
+      position: relative;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+      box-sizing: content-box;
+      padding: 20px 28px;
+      & > .subtitle {
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 150%;
+      }
+      .character-name {
+        width: 300px;
+        height: 40px;
+        border: 1px solid #dbdbdb;
+        border-radius: 5px;
+        margin-bottom: 16px;
+        padding: 0;
+        padding-left: 16px;
+        box-sizing: border-box;
+      }
+      .bg-color-wrapper {
+        display: flex;
+        gap: 5px;
+        .bg-color-label {
+          width: 15px;
+          height: 15px;
+          cursor: pointer;
+          border-radius: 3px;
+          border: 1px solid #dbdbdb;
+        }
+        .red {
+          background-color: #e31d2e;
+        }
+        .orange {
+          background-color: orange;
+        }
+        .yellow {
+          background-color: yellow;
+        }
+        .green {
+          background-color: green;
+        }
+        .blue {
+          background-color: blue;
+        }
+        .bg-color {
+          display: none;
+        }
+        .checked-bg {
+          border: 1px solid black;
+        }
+      }
+      .category-create-btn {
+        width: 300px;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 150%;
+        border-radius: 5px;
+        color: white;
+        background-color: #ff007f;
+        border: 0;
+        height: 40px;
+        margin-top: 22px;
+        cursor: pointer;
+      }
+      .category-create-btn:disabled {
+        background-color: #dbdbdb;
+      }
+    }
+  }
+}

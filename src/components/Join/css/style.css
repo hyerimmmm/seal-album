@@ -1,0 +1,50 @@
+#root .join-page {
+  display: flex;
+  flex-direction: column;
+}
+#root .join-page > label {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 150%;
+}
+#root .join-page > input {
+  border: 1px solid #dbdbdb;
+  height: 50px;
+  border-radius: 5px;
+  padding-left: 16px;
+  margin-bottom: 24px;
+}
+#root .join-page > .pw {
+  margin-bottom: 8px;
+}
+#root .join-page > .join-btn {
+  width: 460px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 150%;
+  border-radius: 5px;
+  color: white;
+  background-color: #ff007f;
+  border: 0;
+  height: 52px;
+  margin-top: 9px;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+#root .join-page > .join-btn:disabled {
+  background-color: #dbdbdb;
+}
+#root .join-page > .back-btn {
+  height: 50px;
+  width: 460px;
+  background-color: #f5f6f8;
+  border-radius: 5px;
+  padding: 0 16px;
+  box-sizing: border-box;
+  cursor: pointer;
+  border: 0;
+  font-size: 16px;
+  color: #54585a;
+  font-weight: 700;
+  line-height: 150%;
+}/*# sourceMappingURL=style.css.map */

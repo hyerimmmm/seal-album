@@ -1,0 +1,66 @@
+#root .login-page {
+  display: flex;
+  flex-direction: column;
+}
+#root .login-page .email-label {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 150%;
+}
+#root .login-page .email {
+  border: 1px solid #dbdbdb;
+  height: 50px;
+  border-radius: 5px;
+  margin-bottom: 24px;
+  padding-left: 16px;
+}
+#root .login-page .pw-label {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 150%;
+}
+#root .login-page .pw {
+  border: 1px solid #dbdbdb;
+  height: 50px;
+  border-radius: 5px;
+  padding-left: 16px;
+}
+#root .login-page .login-btn {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 150%;
+  border-radius: 5px;
+  color: white;
+  background-color: #ff007f;
+  border: 0;
+  height: 52px;
+  margin-top: 38px;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+#root .login-page .join-wrapper {
+  height: 50px;
+  width: 460px;
+  background-color: #f5f6f8;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+#root .login-page .join-wrapper .join-text {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #54585a;
+}
+#root .login-page .join-wrapper .join-btn {
+  font-size: 16px;
+  color: #54585a;
+  font-weight: 700;
+  line-height: 150%;
+  border: 0;
+  background-color: unset;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
