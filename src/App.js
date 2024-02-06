@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./core/core.css";
 
 function App() {
+  console.log("테스트 볼게요");
   return (
     <BrowserRouter>
       <Routes>
