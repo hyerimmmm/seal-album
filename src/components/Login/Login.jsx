@@ -43,7 +43,9 @@ const Login = ({ onType }) => {
       .then((res) => res.json())
       .then((todos) => {
         console.log(todos);
-        navigate("/album");
+        if (todos.state === true) {
+          navigate("/album");
+        }
       })
       .catch((err) => console.log(err));
   }, [email, password]);

@@ -130,6 +130,8 @@ const Join = ({ onType }) => {
       .then((todos) => {
         if (todos.state === false) {
           alert("이미 존재하는 이메일입니다. 다시 입력해 주세요.");
+        } else {
+          onType("login");
         }
       })
       .catch((err) => console.log(err));
